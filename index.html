@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Sets character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Responsive design -->
+    <title>To Do List</title>
+    <!-- Page title -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to external CSS -->
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- ...all your page content except footer... -->
+      <header class="main-header" id="main-header">
+        <h1 id="header-title">My To-Do List</h1>
+        <button id="toggle-theme" class="toggle-theme">Toggle Theme</button>
+      </header>
+      <div class="main-container">
+        <div class="container">
+          <!-- Input field for new tasks -->
+          <input id="input" type="text" class="input" />
+          <!-- Button to add a new task -->
+          <button id="add" class="add">Add task</button>
+        </div>
+        <div class="delete">
+          <!-- Button to delete all tasks -->
+          <span id="del-all" class="del-all">Delete All tasks</span>
+        </div>
+        <!-- Container for the list of tasks -->
+        <div class="tasks"></div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="main-footer">Developed By Zakaria</footer>
+    <!-- Link to external JavaScript file -->
+    <script src="app.js"></script>
+  </body>
+</html>
